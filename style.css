@@ -18,7 +18,7 @@ span {
 main {
   background-color: #1b244a;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 200px 50px 200px;
   grid-template-rows: 1fr;
   width: 500px;
   height: 300px;
@@ -27,7 +27,60 @@ main {
   margin: auto;
   border-radius: 10px;
 }
-button {
+#btn-rest {
+  background-color: #ffffff00;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  padding: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn-1 {
+  background-color: #ffffff00;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  padding: 13px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn-2 {
+  background-color: #ffffff00;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  padding: 13px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn-3 {
+  background-color: #ffffff00;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  padding: 13px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn-4 {
+  background-color: #ffffff00;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  padding: 13px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn-5 {
+  background-color: #ffffff00;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  padding: 13px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn-6 {
   background-color: #ffffff00;
   border: 2px solid #9aabd8;
   color: #9aabd8;
@@ -52,4 +105,5 @@ input {
   font-size: 90px;
   padding-top: 10px;
   margin-top: 10px;
+  margin-left: 22px;
 }

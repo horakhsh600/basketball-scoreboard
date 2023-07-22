@@ -4,6 +4,7 @@ const btn3 = document.getElementById("btn-3");
 const btn4 = document.getElementById("btn-4");
 const btn5 = document.getElementById("btn-5");
 const btn6 = document.getElementById("btn-6");
+const restBtn = document.getElementById("btn-rest");
 let inputFeild1 = document.getElementById("input-1");
 let inputFeild2 = document.getElementById("input-2");
 
@@ -35,5 +36,11 @@ btn5.addEventListener("click", function () {
 });
 btn6.addEventListener("click", function () {
   plus2 += 3;
+  inputFeild2.value = plus2;
+});
+restBtn.addEventListener("click", function () {
+  plus1 = 0;
+  plus2 = 0;
+  inputFeild1.value = plus1;
   inputFeild2.value = plus2;
 });
