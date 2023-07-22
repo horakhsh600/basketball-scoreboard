@@ -9,7 +9,6 @@ let inputFeild2 = document.getElementById("input-2");
 
 let plus1 = 0;
 let plus2 = 0;
-let plus3 = 0;
 btn1.addEventListener("click", function () {
   plus1 += 1;
 
@@ -27,14 +26,14 @@ btn3.addEventListener("click", function () {
 });
 
 btn4.addEventListener("click", function () {
-  plus1 += 1;
-  inputFeild2.value = plus1;
+  plus2 += 1;
+  inputFeild2.value = plus2;
 });
 btn5.addEventListener("click", function () {
-  plus1 += 2;
-  inputFeild2.value = plus1;
+  plus2 += 2;
+  inputFeild2.value = plus2;
 });
 btn6.addEventListener("click", function () {
-  plus1 += 3;
-  inputFeild2.value = plus1;
+  plus2 += 3;
+  inputFeild2.value = plus2;
 });
