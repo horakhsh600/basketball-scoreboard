@@ -1,0 +1,55 @@
+* {
+  font-family: Cursed Timer ULiL;
+}
+body {
+  text-align: center;
+  background-image: linear-gradient(to right, #1b244a, #f94f6d, #9aabd8);
+  color: white;
+}
+h1 {
+  font-size: 50px;
+}
+span {
+  color: #eee;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: Verdana;
+}
+main {
+  background-color: #1b244a;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 500px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+}
+button {
+  background-color: #ffffff00;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  padding: 13px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input {
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: default;
+  width: 165px;
+  height: 120px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: black;
+  color: #f94f6d;
+  font-size: 90px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
